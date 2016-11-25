@@ -1,27 +1,40 @@
-author = "Tonic";
+/**
+ * Copyright © 2016 Amnart, Amnart3Life
+ * All Rights Reserved.
+ */
+
+ class Header
+ {
+ 	gameType = RPG;
+ 	minPlayers = 1;
+ 	maxPlayers = 162;
+ };
+
+author = "Tonic and edited by Amnart Tear";
+onLoadName = "Amnart 3 Life";
+onLoadMission = "For more information visit prismgaming.co.uk";
 loadScreen = "textures\armalife.jpg";
+
 joinUnassigned = 1;
-respawn = BASE;
-respawndelay = 5;
-disabledAI = 1;
-disableChannels[]={0,1,2};
-enableDebugConsole = 1;
-respawnDialog = 0;
 saving = 0;
 
-class Header
-{
-	gameType = RPG;
-	minPlayers = 1;
-	maxPlayers = 75;
-};
+respawn = BASE;
+respawndelay = 30;
+respawnDialog = 0;
+respawnButton = 0;
+respawnTemplates[] = {};
 
-wreckLimit = 3;
-wreckRemovalMinTime = 60;
-wreckRemovalMaxTime = 320;
-corpseLimit = 150;
-corpseRemovalMinTime = 999;
-corpseRemovalMaxTime = 9999;
+disabledAI = 1;
+disableChannels[] = {
+	  {0, true, true}, // Global
+	  {1, false, true}, // Side
+	  {2, true, true} // Command
+	};
+enableDebugConsole = 1;
+allowFunctionsLog = 0;
+
+corpseManagerMode = 0;
+wreckManagerMode = 0;
 
 #include "Config_Spyglass.hpp"
 #include "CfgRemoteExec.hpp"
