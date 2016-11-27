@@ -18,53 +18,63 @@ class CarShops {
     class civ_car {
         side = "civ";
         vehicles[] = {
-            { "B_Quadbike_01_F", 2500, { "" }, { "", "", -1 } },
-            { "C_Hatchback_01_F", 9500, { "driver" }, { "", "", -1 } },
-            { "C_Offroad_01_F", 12500, { "driver" }, { "", "", -1 } },
-            { "C_SUV_01_F", 30000, { "driver" }, { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", 40000, { "driver" }, { "", "", -1 } },
-            { "C_Van_01_transport_F", 45000, { "driver" }, { "", "", -1 } }
+            { "B_Quadbike_01_F", 5000, { "" }, { "", "", -1 } },
+            { "C_Hatchback_01_F", 7000, { "driver" }, { "", "", -1 } },
+            { "C_Offroad_01_F", 14000, { "driver" }, { "", "", -1 } },
+            { "C_SUV_01_F", 40000, { "driver" }, { "", "", -1 } },
+            { "C_Hatchback_01_sport_F", 200000, { "driver" }, { "", "", -1 } },
+            { "I_C_Offroad_02_unarmed_F", 225000, { "driver" }, { "", "", -1 } }, // MB 4WD open
+            { "C_Offroad_02_unarmed_F", 250000, { "driver" }, { "", "", -1 } }, // MB 4WD rollbar
+            { "O_LSV_02_unarmed_F", 300000, { "driver" }, { "", "", -1 } } //Qilin (Unarmed)
         };
     };
 
     class kart_shop {
         side = "civ";
         vehicles[] = {
-            { "C_Kart_01_Blu_F", 15000 , { "driver" }, { "", "", -1 } },
-            { "C_Kart_01_Fuel_F", 15000, { "driver" }, { "", "", -1 } },
-            { "C_Kart_01_Red_F", 15000, { "driver" }, { "", "", -1 } },
-            { "C_Kart_01_Vrana_F", 15000, { "driver" }, { "", "", -1 } }
+            { "C_Kart_01_Blu_F", 80000 , { "driver" }, { "", "", -1 } },
+            { "C_Kart_01_Red_F", 80000, { "driver" }, { "", "", -1 } },
+            { "C_Kart_01_Fuel_F", 80000, { "driver" }, { "", "", -1 } },
+            { "C_Kart_01_Vrana_F", 80000, { "driver" }, { "", "", -1 } }
         };
     };
 
     class med_shop {
         side = "med";
         vehicles[] = {
-            { "C_Offroad_01_F", 10000, { "" }, { "", "", -1 } },
-            { "I_Truck_02_medical_F", 25000, { "" }, { "", "", -1 } },
-            { "O_Truck_03_medical_F", 45000, { "" }, { "", "", -1 } },
-            { "B_Truck_01_medical_F", 60000, { "" }, { "", "", -1 } }
+            { "C_Hatchback_01_F", 0, { "" }, { "", "", -1 } },
+            { "C_Van_01_box_F", 0, { "" }, { "", "", -1 } },
+            { "C_Offroad_01_F", 0, { "" }, { "", "", -1 } }
         };
     };
 
     class med_air_hs {
         side = "med";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 50000, { "mAir" }, { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", 75000, { "mAir" }, { "", "", -1 } }
+            { "O_Heli_Light_02_unarmed_F", 0, { "mAir" }, { "", "", -1 } }
         };
     };
 
     class civ_truck {
         side = "civ";
         vehicles[] = {
-            { "C_Van_01_box_F", 60000, { "trucking" }, { "", "", -1 } },
-            { "I_Truck_02_transport_F", 75000, { "trucking" }, { "", "", -1 } },
-            { "I_Truck_02_covered_F", 100000, { "trucking" }, { "", "", -1 } },
-            { "B_Truck_01_transport_F", 275000, { "trucking" }, { "", "", -1 } },
+            { "C_Van_01_transport_F", 30000, { "trucking" }, { "", "", -1 } },
+            { "C_Van_01_box_F", 45000, { "trucking" }, { "", "", -1 } },
+            { "I_Truck_02_transport_F", 100000, { "trucking" }, { "", "", -1 } },
+            { "I_Truck_02_covered_F", 120000, { "trucking" }, { "", "", -1 } },
+            { "I_Truck_02_box_F", 160000, { "trucking" }, { "", "", -1 } },
+            { "I_Truck_02_fuel_F", 200000, { "trucking" }, { "", "", -1 } },
             { "O_Truck_03_transport_F", 200000, { "trucking" }, { "", "", -1 } },
-            { "O_Truck_03_covered_F", 250000, { "trucking" }, { "", "", -1 } },
-            { "B_Truck_01_box_F", 350000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_covered_F", 225000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_repair_F", 270000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_fuel_F", 300000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_ammo_F", 350000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_transport_F", 400000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_covered_F", 450000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_box_F", 550000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_ammo_F", 700000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_fuel_F", 750000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_mover_F", 300000, { "trucking" }, { "", "", -1 } },
             { "O_Truck_03_device_F", 450000, { "trucking" }, { "", "", -1 } }
         };
     };
@@ -72,57 +82,90 @@ class CarShops {
     class reb_car {
         side = "civ";
         vehicles[] = {
-            { "B_Quadbike_01_F", 2500, { "" }, { "", "", -1 } },
-            { "B_G_Offroad_01_F", 12500, { "" }, { "", "", -1 } },
-            { "O_MRAP_02_F", 150000, { "" }, { "", "", -1 } },
-            { "B_Heli_Light_01_F", 325000, { "" }, { "", "", -1 } },
-            { "B_G_Offroad_01_armed_F", 750000, { "rebel" }, { "", "", -1 } }
+            { "B_Quadbike_01_F", 5000, { "rebel" }, { "", "", -1 } },
+            { "C_Hatchback_01_F", 7000, { "rebel" }, { "", "", -1 } },
+            { "C_Hatchback_01_sport_F", 200000, { "rebel" }, { "", "", -1 } },
+            { "C_Offroad_01_F", 14000, { "rebel" }, { "", "", -1 } },
+            { "O_MRAP_02_F", 3000000, { "rebel" }, { "", "", -1 } },
+            { "C_Van_01_transport_F", 30000, { "rebel" }, { "", "", -1 } },
+            { "C_Van_01_box_F", 45000, { "rebel" }, { "", "", -1 } },
+            { "I_Truck_02_transport_F", 100000, { "rebel" }, { "", "", -1 } },
+            { "I_Truck_02_covered_F", 120000, { "rebel" }, { "", "", -1 } },
+            { "O_Truck_03_transport_F", 200000, { "rebel" }, { "", "", -1 } },
+            { "O_Truck_03_covered_F", 225000, { "rebel" }, { "", "", -1 } },
+            { "B_Truck_01_transport_F", 400000, { "rebel" }, { "", "", -1 } },
+            { "B_Truck_01_box_F", 550000, { "rebel" }, { "", "", -1 } },
+            { "B_Truck_01_covered_F", 400000, { "rebel" }, { "", "", -1 } },
+            { "B_Truck_01_mover_F", 300000, { "rebel" }, { "", "", -1 } },
+            { "B_G_Offroad_01_armed_F", 500000, { "rebel" }, { "", "", -1 } }
         };
     };
 
     class cop_car {
         side = "cop";
         vehicles[] = {
-            { "C_Offroad_01_F", 5000, { "" }, { "", "", -1 } },
-            { "C_SUV_01_F", 20000, { "" }, { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", 30000, { "" }, { "life_coplevel", "SCALAR", 1 } },
-            { "B_MRAP_01_F", 30000, { "" }, { "life_coplevel", "SCALAR", 2 } },
-            { "B_MRAP_01_hmg_F", 750000, { "" }, { "life_coplevel", "SCALAR", 3 } }
+            { "C_Hatchback_01_F", 0, { "" }, { "", "", -1 } },
+            { "C_SUV_01_F", 0, { "" }, { "", "", -1 } },
+            { "I_Truck_02_covered_F", 0, { "" }, { "life_coplevel", "SCALAR", 1 } },
+            { "C_Offroad_01_F", 0, { "" }, { "life_coplevel", "SCALAR", 2 } },
+            { "C_Hatchback_01_sport_F", 0, { "" }, { "", "", -1 } },
+            { "C_Offroad_02_unarmed_F", 0, { "" }, { "", "", -1 } },
+            { "B_MRAP_01_F", 0, { "" }, { "life_coplevel", "SCALAR", 1 } },
+            { "B_UAV_01_F", 0, { "" }, { "life_coplevel", "SCALAR", 2 } },
+            { "B_T_LSV_01_unarmed_F", 0, { "" }, { "", "", -1 } },
+            { "B_UGV_01_rcws_F", 0, { "" }, { "", "", -1 } },
+            { "B_T_LSV_01_unarmed_F", 0, { "" }, { "life_coplevel", "SCALAR", 1 } },
+            { "B_MRAP_01_hmg_F", 0, { "" }, { "life_coplevel", "SCALAR", 3 } }
         };
     };
 
     class civ_air {
         side = "civ";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 253000, { "pilot" }, { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", 750000, { "pilot" }, { "", "", -1 } }
+            { "B_Heli_Light_01_F", 450000, { "pilot" }, { "", "", -1 } },
+            { "C_Heli_Light_01_civil_F", 450000, { "pilot" }, { "", "", -1 } },
+            { "O_Heli_Light_02_unarmed_F", 1000000, { "pilot" }, { "", "", -1 } },
+            { "I_Heli_light_03_unarmed_F", 4000000, { "pilot" }, { "", "", -1 } },
+            { "I_Heli_Transport_02_F", 6000000, { "pilot" }, { "", "", -1 } },
+            { "I_Plane_Fighter_03_AA_F", 15000000, { "pilot" }, { "", "", -1 } },
+            { "O_Plane_CAS_02_F", 20000000, { "pilot" }, { "", "", -1 } },
+            { "B_Heli_Transport_03_unarmed_F", 30000000, { "pilot" }, { "", "", -1 } },
+            { "C_Plane_Civil_01_F", 750000, { "pilot" }, { "", "", -1 } },
+            { "C_Plane_Civil_01_racing_F", 950000, { "pilot" }, { "", "", -1 } },
+            { "B_T_VTOL_01_infantry_F", 50000000, { "pilot" }, { "", "", -1 } },
+            { "B_T_VTOL_01_vehicle_F", 75000000, { "pilot" }, { "", "", -1 } }
         };
     };
 
     class cop_air {
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 75000, { "cAir" }, { "", "", -1 } },
-            { "B_Heli_Transport_01_F", 200000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } }
+            { "B_UAV_01_F", 0, { "cAir" }, { "life_coplevel", "SCALAR", 3 } },
+            { "B_Heli_Light_01_F", 0, { "cAir" }, { "life_coplevel", "SCALAR", 3 } },
+            { "C_Heli_Light_01_civil_F", 0, { "cAir" }, { "life_coplevel", "SCALAR", 3 } },
+            { "B_UAV_01_F", 0, { "cAir" }, { "life_coplevel", "SCALAR", 3 } }
         };
     };
 
     class cop_ship {
         side = "cop";
         vehicles[] = {
-            { "B_Boat_Transport_01_F", 3000, { "cg" }, { "", "", -1 } },
-            { "C_Boat_Civil_01_police_F", 20000, { "cg" }, { "", "", -1 } },
-            { "B_Boat_Armed_01_minigun_F", 75000, { "cg" }, { "life_coplevel", "SCALAR", 3 } },
-            { "B_SDV_01_F", 100000, { "cg" }, { "", "", -1 } }
+            { "B_Boat_Transport_01_F", 0, { "cg" }, { "life_coplevel", "", 3 } },
+            { "C_Boat_Civil_01_police_F", 0, { "cg" }, { "life_coplevel", "", 3 } },
+            { "B_Boat_Armed_01_minigun_F", 0, { "cg" }, { "life_coplevel", "SCALAR", 3 } },
+            { "B_SDV_01_F", 0, { "cg" }, { "life_coplevel", "SCALAR", 3 } },
+            { "I_C_Boat_Transport_02_F", 0, { "cg" }, { "life_coplevel", "", 3 } }
         };
     };
 
     class civ_ship {
         side = "civ";
         vehicles[] = {
+            { "C_Scooter_Transport_01_F", 3000, { "boat" }, { "", "", -1 } },
             { "C_Rubberboat", 5000, { "boat" }, { "", "", -1 } },
-            { "C_Boat_Civil_01_F", 22000, { "boat" }, { "", "", -1 } },
-            { "B_SDV_01_F", 150000, { "boat" }, { "", "", -1 } }
+            { "C_Boat_Civil_01_F", 40000, { "boat" }, { "", "", -1 } },
+            { "I_C_Boat_Transport_02_F", 100000, { "boat" }, { "", "", -1 } },
+            { "I_SDV_01_F", 1500000, { "boat" }, { "", "", -1 } }
         };
     };
 };
@@ -431,11 +474,53 @@ class LifeCfgVehicles {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa",
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa"
             } },
+            { "Police Offroad", "cop", {
+                "textures\police\offroad\policeoffroad.paa"
+            } },
             { "Taxi", "civ", {
                 "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
             } },
-            { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
+            { "Jungle Camo", "civ", {
+                "\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_01_co.paa","civ","\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_01_co.paa"
+            } },
+            { "Sand Camo", "civ", {
+                "\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_02_co.paa","civ","\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_02_co.paa"
+            } },
+            { "Sand Camo 2", "civ", {
+                "\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_03_co.paa","civ","\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_03_co.paa"
+            } },
+            { "Sand Jungle Camo", "civ", {
+                "\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_04_co.paa","civ","\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_04_co.paa"
+            } },
+            { "Sand Jungle Camo 2", "civ", {
+                "\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_05_co.paa","civ","\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_05_co.paa"
+            } },
+            { "Sand Jungle Camo 3", "civ", {
+                "\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_06_co.paa","civ","\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_06_co.paa"
+            } },
+            { "Sand Jungle Camo 4", "cop", {
+                "\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_07_co.paa","civ","\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_07_co.paa"
+            } },
+            { "Jungle Camo 2", "cop", {
+                "\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_08_co.paa","civ","\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_08_co.paa"
+            } },
+            { "Jungle Camo 3", "cop", {
+                "\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_09_co.paa","civ","\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_09_co.paa"
+            } },
+            { "Jungle Camo 4", "cop", {
+                "\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_10_co.paa","civ","\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_10_co.paa"
+            } },
+            { "Jungle Camo 5", "cop", {
+                "\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_11_co.paa","civ","\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_11_co.paa"
+            } },
+            { "Jungle Camo 6", "cop", {
+                "\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_12_co.paa","civ","\A3\soft_F_bootcamp\Offroad_01\Data\offroad_01_ext_ig_12_co.paa"
+            } },
+            { "Police Offroad Black", "cop", {
+                "textures\police\offroad\policeoffroadblack.paa"
+            } },
+            { "NHS Offroad", "med", {
+                "textures\nhs\nhsoffroad.paa"
             } }
         };
     };
@@ -483,26 +568,38 @@ class LifeCfgVehicles {
         insurance = 5500;
         chopShop = 15000;
         textures[] = {
-            { "Red", "civ", {
+            { "Beige", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport01_co.paa"
             } },
-            { "Dark Blue", "civ", {
+            { "Green", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport02_co.paa"
             } },
-            { "Orange", "civ", {
+            { "Blue", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport03_co.paa"
             } },
-            { "Black / White", "civ", {
+            { "Dark Blue", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport04_co.paa"
             } },
-            { "Beige", "civ", {
+            { "Yellow", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport05_co.paa"
             } },
-            { "Green", "civ", {
+            { "White", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport06_co.paa"
             } },
-            { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
+            { "Grey", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport06_co.paa"
+            } },
+            { "Black", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport06_co.paa"
+            } },
+            { "Police Hatchback", "cop", {
+                "textures\police\hatchback\policehatchbackwhite.paa"
+            } },
+            { "NHS Hatchback", "med", {
+                "textures\nhs\paramedichb.paa"
+            } },
+            { "VW Polo", "reb", {
+                "textures\police\hatchback\policehatchbackblack.paa"
             } }
         };
     };
@@ -557,6 +654,10 @@ class LifeCfgVehicles {
             } },
             { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+            { "Prison Bus", "cop", {
+                "textures\police\zamak\policezamakfront.paa",
+                "textures\police\zamak\policezamakback.paa"
             } }
         };
     };
@@ -572,8 +673,8 @@ class LifeCfgVehicles {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
                 "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"
             } },
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            { "Black", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1))"
             } }
         };
     };
@@ -617,6 +718,15 @@ class LifeCfgVehicles {
             } },
             { "Black", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
+            } },
+            { "Police Hatchback", "cop", {
+                "textures\police\hatchback\policehatchbackwhite.paa"
+            } },
+            { "NHS Hatchback", "med", {
+                "textures\nhs\paramedichb.paa"
+            } },
+            { "VW Polo", "reb", {
+                "textures\police\hatchback\policehatchbackblack.paa"
             } }
         };
     };
@@ -631,15 +741,33 @@ class LifeCfgVehicles {
             { "Dark Red", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"
             } },
+            { "White Police SUV", "cop", {
+                "textures\police\suv\policesuvwhite.paa"
+            } },
             { "Silver", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa"
             } },
             { "Orange", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"
             } },
-            { "Police", "cop", {
-                "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
+            { "NHS SUV", "med", {
+                "textures\nhs\nhssuv.paa"
             } },
+            { "Altis Taxis", "civ", {
+                "textures\civilian\taxi\taxi.paa"
+            } },
+            { "Black Police SUV", "cop", {
+                "textures\police\suv\policesuvblack.paa"
+            } },
+            { "SpongeBob", "civ", {
+                ""
+            } },
+            { "Jurrasic Park", "cop", {
+                ""
+            } },
+            { "StormTrooper", "cop", {
+                ""
+            } }
         };
     };
 
@@ -655,6 +783,30 @@ class LifeCfgVehicles {
             } },
             { "Red", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
+            } },
+            { "Jungle Camo", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_01_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_01_co.paa"
+            } },
+            { "Sand Camo", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_02_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_02_co.paa"
+            } },
+            { "Sand/Jungle Camo", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_03_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_03_co.paa"
+            } },
+            { "Sand/Jungle Camo 2", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_04_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_04_co.paa"
+            } },
+            { "Sand Camo 2", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_05_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_05_co.paa"
+            } },
+            { "Sand Camo 3", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_06_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_06_co.paa"
+            } },
+            { "Jungle Camo 2", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_07_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_07_co.paa"
+            } },
+            { "Sand Camo 4", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_08_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_08_co.paa"
             } }
         };
     };
@@ -671,6 +823,34 @@ class LifeCfgVehicles {
             } },
             { "Red", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
+            } },
+            { "Ambulance", "med", {
+                "textures\nhs\ambulancefront.paa",
+                "textures\nhs\ambulanceback.paa"
+            } },
+            { "Jungle Camo", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_01_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_01_co.paa"
+            } },
+            { "Sand Camo", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_02_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_02_co.paa"
+            } },
+            { "Sand/Jungle Camo", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_03_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_03_co.paa"
+            } },
+            { "Sand/Jungle Camo 2", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_04_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_04_co.paa"
+            } },
+            { "Sand Camo 2", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_05_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_05_co.paa"
+            } },
+            { "Sand Camo 3", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_06_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_06_co.paa"
+            } },
+            { "Jungle Camo 2", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_07_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_07_co.paa"
+            } },
+            { "Sand Camo 4", "civ", {
+                "\A3\soft_F_bootcamp\Van_01\Data\van_01_ext_ig_08_co.paa","civ","\A3\soft_F_bootcamp\Van_01\Data\van_01_adds_ig_08_co.paa"
             } }
         };
     };
@@ -682,9 +862,17 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 15000;
         textures[] = {
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            { "Command Hunter", "cop", {
+                "textures\police\hunter\policehunterfront.paa",
+                "textures\police\hunter\policehunterback.paa"
+            } },
+            { "AR Hunter", "cop", {
+                "textures\police\hunter\arhunterfront.paa",
+                "textures\police\hunter\arhunterback.paa"
+            } },
+            { "Command Hunter", "cop", {
+                "textures\police\hunter\ncahunterfront.paa",
+                "textures\police\hunter\ncahunterback.paa"
             } }
         };
     };
@@ -696,17 +884,20 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 125000;
         textures[] = {
-            { "Police", "cop", {
-                "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa"
+            { "NPAS MH-9", "cop", {
+                "textures\police\hummingbird\npashummingbirdbench.paa"
             } },
-            { "Sheriff", "civ", {
-                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sheriff_co.paa"
+            { "Black", "civ", {
+                "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa"
             } },
             { "Civ Blue", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_blue_co.paa"
             } },
             { "Civ Red", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_co.paa"
+            } },
+            { "Digi Green", "reb", {
+                "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             } },
             { "Blueline", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_blueline_co.paa"
@@ -735,11 +926,11 @@ class LifeCfgVehicles {
             { "Rebel Digital", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"
             } },
-            { "Digi Green", "reb", {
-                "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
+            { "Wasp", "civ", {
+                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wasp_co.paa"
             } },
-            { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+            { "UNMC Camo", "reb", {
+                "textures\unmc\unmcmh9.paa"
             } }
         };
     };
@@ -763,8 +954,8 @@ class LifeCfgVehicles {
             { "Desert Digi", "reb", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             } },
-            { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+            { "Air Ambulance", "med", {
+                "textures\nhs\paramedichems.paa"
             } }
         };
     };
@@ -776,15 +967,40 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 5000;
         textures[] = {
-            { "Ion", "civ", {
+            { "Black/Yellow Design", "civ", {
                 "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_1_ion_co.paa",
                 "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_2_ion_co.paa",
                 "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_3_ion_co.paa"
             } },
-            { "Dahoman", "civ", {
+            { "Green/Yellow Design", "civ", {
                 "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_1_dahoman_co.paa",
                 "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_2_dahoman_co.paa",
                 "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_3_dahoman_co.paa"
+            } },
+            { "Black", "civ", {
+                "#(rgb,8,8,3)color(0,0,0,0.6)",
+                "#(rgb,8,8,3)color(0,0,0,0.6)",
+                "#(rgb,8,8,3)color(0,0,0,0.6)"
+            } },
+            { "Tan", "civ", {
+                "#(rgb,8,8,3)color(0.8,0.7,0.5,0.2)",
+                "#(rgb,8,8,3)color(0.8,0.7,0.5,0.2)",
+                "#(rgb,8,8,3)color(0.8,0.7,0.5,0.2)"
+            } },
+            { "Grey", "civ", {
+                "#(rgb,8,8,3)color(0.1,0.1,0.1,0.9)",
+                "#(rgb,8,8,3)color(0.1,0.1,0.1,0.9)",
+                "#(rgb,8,8,3)color(0.1,0.1,0.1,0.9)"
+            } },
+            { "BA Speedhawk", "reb", {
+                "textures\civilian\ba\BAMohawk1.paa",
+                "textures\civilian\ba\BAMohawk2.paa",
+                "textures\civilian\ba\BAMohawk3.paa"
+            } },
+            { "UNMC Grey", "reb", {
+                "#(rgb,8,8,3)color(0.1,0.1,0.1,0.9)",
+                "#(rgb,8,8,3)color(0.1,0.1,0.1,0.9)",
+                "#(rgb,8,8,3)color(0.1,0.1,0.1,0.9)"
             } }
         };
     };

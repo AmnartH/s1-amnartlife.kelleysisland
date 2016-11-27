@@ -51,7 +51,7 @@ class Life_Settings {
 
     /* Paycheck Amount */
     paycheck_cop = 5000; //Payment for cops
-    paycheck_civ = 3500; //Payment for civillians
+    paycheck_civ = 550; //Payment for civillians
     paycheck_med = 7500; //Payment for medics
 
     /* Federal Reserve settings */

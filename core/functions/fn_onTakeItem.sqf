@@ -22,16 +22,21 @@ switch(playerSide) do
 	};
 	case civilian: {
 		//Currently stoping the civilians from taking the Rangemaster clothing from medics or cops.
-		if(_item in ["U_Rangemaster"]) then {
+		if(_item in ["U_B_CombatUniform_mcam_worn"]) then {
 			[_item,false,false,false,false] call life_fnc_handleItem;
 		};
-		if(_item in ["U_C_Poloshirt_blue","U_C_Poloshirt_burgundy","U_C_Poloshirt_stripped","U_C_Poloshirt_tricolour","U_C_Poloshirt_salmon","U_C_Poloshirt_redwhite","U_C_Commoner1_1"]) then {
-			[] call life_fnc_playerSkins;
+		if(_item in ["U_BG_Guerilla3_1"]) then {
+			[_item,false,false,false,false] call life_fnc_handleItem;
 		};
-	};
-	case independent: {
-		if(_item in ["U_Rangemaster"]) then {
-			[] call life_fnc_playerSkins;
+		if(_item in ["hgun_P07_snds_F","hgun_P07_snds_F"]) then {
+			[_item,false,false,false,false] call life_fnc_handleItem;
 		};
+		if(_item in ["U_NikosAgedBody"]) then {
+			[_item,false,false,false,false] call life_fnc_handleItem;
+		};
+
 	};
+	case independent: {};
 };
+
+[player, true] call life_fnc_HandleUniforms; //choose uniform retexture and send it to everyone. CL - Enable pickup of uniform and retexture.

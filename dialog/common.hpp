@@ -781,6 +781,13 @@ class Life_RscMapControl
 		font = "PuristaMedium";
 		sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)";
 	};
+	class LineMarker
+	{	
+		lineWidthThin = 0.008;
+		lineWidthThick = 0.014;
+		lineDistanceMin = 3e-005;
+		lineLengthMin = 5;
+	};
 	class ActiveMarker
 	{
 		color[] = {0.3,0.1,0.9,1};

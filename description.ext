@@ -13,7 +13,7 @@
 author = "Tonic and edited by Amnart Tear";
 onLoadName = "Amnart 3 Life";
 onLoadMission = "For more information visit prismgaming.co.uk";
-loadScreen = "textures\armalife.jpg";
+loadScreen = "textures\LoadScreenA3L.paa";
 
 joinUnassigned = 1;
 saving = 0;
@@ -45,6 +45,7 @@ class RscTitles {
 	#include "dialog\progress.hpp"
 	#include "dialog\hud_nameTags.hpp"
 	#include "dialog\hud_stats.hpp"
+	#include "dialog\intro.hpp"
 };
 
 class CfgFunctions {
@@ -79,6 +80,30 @@ class CfgSounds
 	{
 		name = "flashbang";
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class intro1 {
+		name = "intro1";
+		sound[] = {"\sounds\intros\intro.ogg", 1.0, 1};
+		titles[] = {};
+	};
+
+	class intro2 {
+		name = "intro2";
+		sound[] = {"\sounds\intros\intro.ogg", 1.0, 1};
+		titles[] = {};
+	};
+
+	class intro3 {
+		name = "intro3";
+		sound[] = {"\sounds\intros\intro.ogg", 1.0, 1};
+		titles[] = {};
+	};
+
+	class intro4 {
+		name = "intro4";
+		sound[] = {"\sounds\intros\intro.ogg", 1.0, 1};
 		titles[] = {};
 	};
 };

@@ -19,6 +19,13 @@ enableSentences false;
 diag_log "::Life Client:: Initialization Variables";
 [] call compile PreprocessFileLineNumbers "core\configuration.sqf";
 
+//--- Setup Player Skins
+{
+	if (_x != player) then {
+		[_x, false] call life_fnc_HandleUniforms;
+	};
+} forEach allPlayers;
+
 //Set bank amount for new players
 switch (playerSide) do {
 	case west: {

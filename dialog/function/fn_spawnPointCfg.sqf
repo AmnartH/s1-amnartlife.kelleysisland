@@ -28,7 +28,8 @@ switch (_side) do
 	case civilian:
 	{
 		_return = [
-			["civ_spawn_1","Union City Stadium","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_1","Union City","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["reb_spawn_1","Rebel 1","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_2","!DO NOT USE!","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_3","!DO NOT USE!","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_4","!DO NOT USE!","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
@@ -42,7 +43,7 @@ switch (_side) do
 				
 				_return pushBack [format["house_%1",_house getVariable "uid"],_houseName,"\a3\ui_f\data\map\MapControl\lighthouse_ca.paa"];
 			} foreach life_houses;
-		};	
+		};	z
 	};
 	
 	case independent: {

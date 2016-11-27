@@ -28,6 +28,10 @@ if(BANK > _reviveCost) then {
 	BANK = 0;
 };
 
+//Retexturing of units clothing, vanilla files only retexture the NHS unit.
+[player, true] call life_fnc_HandleUniforms;
+{_x hideObjectGlobal false;} forEach life_containers; 
+
 //Bring me back to life.
 player setDir _dir;
 player setPosASL (visiblePositionASL life_corpse);
