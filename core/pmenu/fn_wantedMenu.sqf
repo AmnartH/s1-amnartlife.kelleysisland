@@ -32,7 +32,7 @@ lbClear _list2; //Purge the list
 _crimes = LIFE_SETTINGS(getArray,"crimes");
 
 {
-	_list2 lbAdd format["%1 - $%2 (%3)",localize (_x select 0),(_x select 1),(_x select 2)];
+	_list2 lbAdd format["%1 - £%2 (%3)",localize (_x select 0),(_x select 1),(_x select 2)];
 	_list2 lbSetData [(lbSize _list2)-1,(_x select 2)];
 } foreach _crimes;
 

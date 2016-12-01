@@ -24,7 +24,7 @@ if(parseNumber(_amount) > CASH) exitWith {hint "You don't have that much to give
 if(isNull _unit) exitWith {ctrlShow[2001,true];};
 if(isNil "_unit") exitWith {ctrlShow[2001,true]; hint "The selected player is not within range";};
 
-hint format["You gave $%1 to %2",[(parseNumber(_amount))] call life_fnc_numberText,_unit getVariable["realname",name _unit]];
+hint format["You gave £%1 to %2",[(parseNumber(_amount))] call life_fnc_numberText,_unit getVariable["realname",name _unit]];
 CASH = CASH - (parseNumber(_amount));
 
 [0] call SOCK_fnc_updatePartial;
