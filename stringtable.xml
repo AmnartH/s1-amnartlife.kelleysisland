@@ -6572,5 +6572,7 @@
   <Key ID="STR_ATM_DepositAllSuccess">
     <Original>You have succesfully deposited all your cash!</Original>
   </Key>
-  
+  <Key ID="STR_ATM_DepositAll">
+            <Original>Deposit All</Original>
+	</Key>
 </Project>

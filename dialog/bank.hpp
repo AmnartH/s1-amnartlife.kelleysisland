@@ -69,7 +69,7 @@ class Life_atm_management {
 		
 		class DepositAllButton: Life_RscButtonMenu {
             idc = -1;
-            text = "Deposit All";
+            text = "$STR_ATM_DepositAll";
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
             onButtonClick = "[] call life_fnc_bankDepositAll";
             x = 0.425;

@@ -219,13 +219,14 @@ endLoadingScreen;
 //--- End the mission
 endMission "END1";
 
-//--- Start ESC Interruption Script
-	[] spawn life_fnc_escInterupt;
-
 //--- Break out of init script
 breakOut "A3L_CLIENT_INIT";
 
 };
+
+//--- Start ESC Interruption Script
+//diag_log "::Life Client:: Group Base Execution";
+[] spawn life_fnc_escInterupt;
 
 //--- Setup Post-Session player variables
 	player SVAR ["restrained",false,true];
