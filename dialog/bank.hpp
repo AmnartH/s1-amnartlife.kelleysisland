@@ -52,7 +52,7 @@ class Life_atm_management {
 			onButtonClick = "[] call life_fnc_bankWithdraw";
 			x = 0.425;
 			y = 0.46;
-			w = (6 / 40);
+			w = (6.25 / 40);
 			h = (1 / 25);
 		};
 
@@ -63,7 +63,7 @@ class Life_atm_management {
 			onButtonClick = "[] call life_fnc_bankDeposit";
 			x = 0.425;
 			y = 0.512;
-			w = (6 / 40);
+			w = (6.25 / 40);
 			h = (1 / 25);
 		};
 		
@@ -74,7 +74,7 @@ class Life_atm_management {
             onButtonClick = "[] call life_fnc_bankDepositAll";
             x = 0.425;
             y = 0.564;
-            w = (6 / 40);
+            w = (6.25 / 40);
             h = (1 / 25);
         };
 
