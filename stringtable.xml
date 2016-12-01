@@ -6607,4 +6607,15 @@
 	<Original>CALLS EMERGENCY | Abuse leads to BAN!</Original>
  </Key>
 </Package>
+ <Key ID="STR_pInAct_Seize">
+            <Original>Seize Weapons</Original>
+            <Czech>zabavili zbraně</Czech>
+            <Spanish>Confiscar Armas</Spanish>
+            <Russian></Russian>
+            <German>Seize Waffen</German>
+            <French>Saisir les armes</French>
+            <Italian>cogliere Armi</Italian>
+            <Portuguese>Apreender Armas</Portuguese>
+            <Polish>Chwytaj broń</Polish>
+        </Key>
 </Project>

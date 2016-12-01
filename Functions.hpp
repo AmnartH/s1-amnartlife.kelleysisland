@@ -101,6 +101,7 @@ class Life_Client_Core
 		class gather {};
 		class gutAnimal {};
 		class removeContainer {};
+		class seizePlayerAction {};
 	};
 
 	class Housing
@@ -287,6 +288,8 @@ class Life_Client_Core
 		class ticketPaid {};
 		class containerInvSearch {};
 		class wantedGrab {};
+		class seizeObjects {};
+		class seizeClient {};
 	};
 
 	class Gangs
