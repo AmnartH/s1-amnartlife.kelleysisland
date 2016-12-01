@@ -27,3 +27,4 @@
 #include "compensate.hpp"
 #include "FuelStat.hpp"
 #include "RscDisplayLoading.hpp"
+#include "smartphone.hpp"

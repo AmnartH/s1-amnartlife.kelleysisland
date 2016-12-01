@@ -32,6 +32,7 @@ life_action_gathering = false;
 life_vdFoot = viewDistance;
 life_vdCar = viewDistance;
 life_vdAir = viewDistance;
+life_smartphoneTarget = ObjNull;
 tawvd_addon_disable = true;
 life_god = false;
 life_frozen = false;
